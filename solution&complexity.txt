@@ -1,0 +1,16 @@
+Solutions: 191, 1616, 2480
+
+Time Complexity:
+let the dimension of the maze be n 
+let the total number of nodes is n*n be N:
+
+Each cell has at most four neighbor cells
+let total number of edges E = 4*N
+Time Complexity of Dijkstra after optimization: O((E+N) * log(N)) = O(N*Log(N))
+
+
+
+Space Complexity:
+let the dimension of the maze be n 
+let the total number of nodes is n*n be N:
+since we need additional array coins_val, space complexity of the algorithm is: O(N)
